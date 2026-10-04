@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sonali Sahoo | CSE Student & Developer</title>
+  <meta name="description" content="Portfolio of Sonali Sahoo, final-year B.Tech Computer Science and Engineering student.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="logo">Sonali<span>.</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+    <nav aria-label="Main">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li><li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li><li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li><li><a href="#internship">Internship</a></li>
+        <li><a href="#certificates">Certificates</a></li><li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<!-- 1. HERO -->
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text reveal">
+      <p class="hello">Hi, I'm Sonali Sahoo</p>
+      <h1>Computer Science &amp; Engineering Student</h1>
+      <p class="lead">Final-year Computer Science and Engineering student with a strong interest in software development, web technologies, databases, and problem solving. I enjoy building practical applications and continuously improving my technical skills.</p>
+      <div class="btns">
+        <a href="#projects" class="btn primary">View My Projects</a>
+        <a href="#contact" class="btn outline">Contact Me</a>
+      </div>
+      <p class="focus">Java • Web Development • SQL • Software Development</p>
+    </div>
+    <div class="code-card reveal" aria-hidden="true">
+      <div class="dots"><i></i><i></i><i></i></div>
+<pre><span class="k">const</span> sonali = {
+  role: <span class="s">"CSE Student"</span>,
+  stack: [<span class="s">"Java"</span>, <span class="s">"React"</span>, <span class="s">"SQL"</span>],
+  learning: <span class="s">"always"</span>,
+  openToWork: <span class="k">true</span>
+};</pre>
+    </div>
+  </div>
+</section>
+
+<!-- 2. ABOUT -->
+<section id="about" class="section alt">
+  <div class="container about-grid">
+    <div class="photo-wrap reveal">
+      <img src="assets/Sonaliproffpht.jpeg" alt="Portrait of Sonali Sahoo" width="320" height="320">
+    </div>
+    <div class="reveal">
+      <h2>About Me</h2>
+      <p>I'm a final-year B.Tech student in Computer Science and Engineering. I'm learning software development by building projects, from Java and MySQL applications to full-stack web apps, and I take part in hackathons and coding contests to sharpen my problem solving.</p>
+      <p>I'm looking for opportunities where I can contribute to real products, learn from experienced engineers, and grow as a software professional.</p>
+      <ul class="info-cards">
+        <li><span>🎓</span> B.Tech CSE</li>
+        <li><span>📍</span> Odisha, India</li>
+        <li><span>💻</span> Software Development</li>
+        <li><span>🚀</span> Open to Opportunities</li>
+      </ul>
+      <a href="assets/resume.pdf" class="btn primary" download>Download Resume</a>
+    </div>
+  </div>
+</section>
+
+<!-- 3. EDUCATION -->
+<section id="education" class="section">
+  <div class="container narrow">
+    <h2 class="center">Education</h2>
+    <ol class="timeline">
+      <li class="reveal">
+        <time>2023 – 2027</time>
+        <h3>B.Tech, Computer Science &amp; Engineering</h3>
+        <p class="meta">DRIEMS University, Odisha &middot; CGPA: <strong>8.5</strong></p>
+        <p class="tags"><span>Data Structures</span><span>DBMS</span><span>Java</span><span>Web Development</span><span>Software Engineering</span></p>
+      </li>
+      <li class="reveal">
+        <time>2022 – 2023</time>
+        <h3>Class XII</h3>
+        <p class="meta">CBSE &middot; Percentage: <strong>60.8%</strong></p>
+      </li>
+      <li class="reveal">
+        <time>2020 – 2021</time>
+        <h3>Class X</h3>
+        <p class="meta">CBSE &middot; Percentage: <strong>86.4%</strong></p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- 4. SKILLS -->
+<section id="skills" class="section alt">
+  <div class="container">
+    <h2 class="center">Skills</h2>
+    <div class="grid skills">
+      <article class="card reveal"><h3>Programming</h3><ul class="tags"><li>Java</li><li>JavaScript</li><li>SQL</li><li>HTML</li><li>CSS</li></ul></article>
+      <article class="card reveal"><h3>Web Development</h3><ul class="tags"><li>React.js</li><li>Node.js</li><li>Express.js</li><li>REST APIs</li></ul></article>
+      <article class="card reveal"><h3>Database</h3><ul class="tags"><li>MySQL</li><li>MongoDB</li></ul></article>
+      <article class="card reveal"><h3>Tools &amp; Technologies</h3><ul class="tags"><li>Git</li><li>GitHub</li><li>AWS</li><li>Postman</li></ul></article>
+    </div>
+  </div>
+</section>
+
+<!-- 5. PROJECTS -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="center">Projects</h2>
+    <div class="grid projects">
+      <article class="card reveal">
+        <h3>Hospital Management System</h3>
+        <p>A Java and MySQL based application for managing patients, doctors, and administrative records.</p>
+        <ul class="tags"><li>Java</li><li>MySQL</li><li>JDBC</li></ul>
+        <div class="card-btns"><a class="btn small outline" href="https://github.com/S0NAA/Hospital-Management-System">GitHub</a></div>
+      </article>
+      <article class="card reveal">
+        <h3>Resume Builder</h3>
+        <p>A web application that lets users create and customize resumes, with user authentication and dynamic resume generation.</p>
+        <ul class="tags"><li>React.js</li><li>Node.js</li><li>Express.js</li><li>MongoDB</li><li>Gemini AI</li></ul>
+        <div class="card-btns"><a class="btn small outline" href="https://github.com/S0NAA/ResumeBuilder">GitHub</a></div>
+      </article>
+      <article class="card reveal">
+        <h3>Teacher Management System</h3>
+        <p>A web-based system designed to manage teacher and related academic information.</p>
+        <ul class="tags"><li>Spring Boot</li><li>SQL</li></ul>
+        <div class="card-btns"><a class="btn small outline" href="YOUR_GITHUB_LINK">GitHub</a></div>
+      </article>
+    </div>
+    <p class="center"><a class="btn outline" href="https://github.com/S0NAA?tab=repositories">View More Projects</a></p>
+  </div>
+</section>
+
+<!-- 6. INTERNSHIP -->
+<section id="internship" class="section alt">
+  <div class="container narrow">
+    <h2 class="center">Internship</h2>
+    <ol class="timeline">
+      <li class="reveal">
+        <time>Nov 2025 – Feb 2026</time>
+        <h3>Web Development Intern</h3>
+        <p class="meta">Uptoskills</p>
+        <ul class="bullets">
+          <li>Worked on web development tasks as a Team lead.</li>
+          <li>Contributed to frontend development and interface structure.</li>
+          <li>Worked with HTML, CSS, JavaScript and modern web technologies.</li>
+          <li>Collaborated with a team on practical development work.</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- 7. CERTIFICATES -->
+<section id="certificates" class="section">
+  <div class="container">
+    <h2 class="center">Certificates &amp; Achievements</h2>
+    <div class="grid certs">
+      <article class="card reveal"><span class="icon">📜</span><p class="meta">Oracle Certification</p><h3>Data Science Engineering</h3><a class="btn small outline" href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=7C5F90197AD5EFC3F81767036A486876DFC8DFA2133B399DE92E24D2AC8CFFCC">View Certificate</a></article>
+      
+      <article class="card reveal"><span class="icon">📜</span><p class="meta">AWS Cloud Quest</p><h3>Cloud Practitioner - Training Badge</h3><a class="btn small outline" href="https://www.credly.com/earner/earned/badge/1d886f4a-f681-4343-a07a-00ae72287f54">View Certificate</a></article>
+      
+      <article class="card reveal"><span class="icon">📜</span><p class="meta">Oracle Certification</p><h3> Cloud Infrastructure Certified Foundations Associate</h3><a class="btn small outline" href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=903CF62413A77C10B69D29BF2476B2E2D689BC40F6AE97E7CAA2245E6C91C1C2">View Certificate</a></article>
+      
+      
+    </div>
+  </div>
+</section>
+
+<!-- 8. CONTACT -->
+<section id="contact" class="section alt">
+  <div class="container contact-grid">
+    <div class="reveal">
+      <h2>Let's Connect</h2>
+      <p>I'm always interested in learning, building meaningful projects, and exploring opportunities in software development.</p>
+      <ul class="contact-info">
+        <li><strong>Email:</strong> sonalisahoo4500@gmail.com</li>
+        <li><strong>LinkedIn:</strong> linkedin.com/in/sonali-sahoo-80a161307</li>
+        <li><strong>GitHub:</strong> https://github.com/S0NAA</li>
+        <li><strong>Location:</strong> Odisha, India</li>
+      </ul>
+    </div>
+    <form id="contactForm" class="card reveal" novalidate>
+      <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name"><small class="error" id="nameErr"></small></div>
+      <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email"><small class="error" id="emailErr"></small></div>
+      <div class="field"><label for="subject">Subject</label><input id="subject" name="subject" type="text"><small class="error" id="subjectErr"></small></div>
+      <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5"></textarea><small class="error" id="messageErr"></small></div>
+      <button type="submit" class="btn primary">Send Message</button>
+      <p id="formStatus" class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- 9. FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <p class="logo">Sonali Sahoo</p>
+    <p>Computer Science &amp; Engineering Student</p>
+    <p class="social"><a href="https://github.com/S0NAA">GitHub</a><a href="linkedin.com/in/sonali-sahoo-80a161307">LinkedIn</a><a href="mailto:YOUR_EMAIL">Email</a></p>
+    <p class="copy">&copy; 2026 Sonali Sahoo. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">&uarr;</button>
+<script src="script.js"></script>
+</body>
+</html>
